@@ -3,9 +3,9 @@
 namespace App\Conversations;
 
 use App\Category;
-use BotMan\BotMan\Messages\Conversations\Conversation;
-use BotMan\BotMan\Messages\Incoming\Answer;
 use Illuminate\Support\Facades\DB;
+use BotMan\BotMan\Messages\Incoming\Answer;
+use BotMan\BotMan\Messages\Conversations\Conversation;
 
 class DoneConversation extends Conversation
 {

@@ -3,11 +3,9 @@
 namespace App\Conversations;
 
 use App\Category;
-use App\Item;
-use BotMan\BotMan\Messages\Conversations\Conversation;
-use BotMan\BotMan\Messages\Incoming\Answer;
-use BotMan\BotMan\Messages\Outgoing\Question;
 use Illuminate\Support\Facades\DB;
+use BotMan\BotMan\Messages\Incoming\Answer;
+use BotMan\BotMan\Messages\Conversations\Conversation;
 
 class RemoveConversation extends Conversation
 {
