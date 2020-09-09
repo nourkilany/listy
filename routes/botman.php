@@ -12,7 +12,10 @@ $botman->hears('Hi', function ($bot) {
 $botman->hears('/start', ItemController::class.'@start');
 $botman->hears('/start@OurListyBot', ItemController::class.'@start');
 
-$botman->hears('stop', function(BotMan $bot) {
+$botman->hears('/category', ItemController::class.'@category');
+$botman->hears('/category@OurListyBot', ItemController::class.'@category');
+
+$botman->hears('stop', function (BotMan $bot) {
     $bot->reply('stopped');
 })->stopsConversation();
 
